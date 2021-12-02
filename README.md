@@ -4,15 +4,14 @@ Just a repo for my personal GoLang learning and progression :)
 
 - [Install Go here](https://go.dev/doc/install)
 
-
-### some useful GO CLI commands:
+## Some useful GO CLI commands
 
 ```sh
-- go version (current running Go version)
+- go version (prints current running Go version)
 
 - go env (prints env vars)
 
-- go fmt (formats code)
+- go fmt (formats code of all files in current directory)
 
 - go help (list of all commands)
 
@@ -22,17 +21,18 @@ Just a repo for my personal GoLang learning and progression :)
 
 - go build (builds and creates an executable or package)
 
-- go install (compiles the program & builds it)
+- go install (compiles the program & "installs" a package)
 
 - go mod tidy (remove unused dependencies)
 
-- go get (changes required version of of a dependency or adds a new dependency)
+- go get (downloads raw source code of a 3rd party package)
 
-- go test
+- go test (runs any tests associated with the current project)
 
 - go list (lists all currnet module dependencies)
 ```
-### managing & upgrading dependencies (example)
+
+## managing & upgrading dependencies (example) 
 
 ```sh
 - go get goloang.org/x/text (example)
@@ -41,6 +41,7 @@ Just a repo for my personal GoLang learning and progression :)
 - go list -m -version rsc.io/sampler (search for versions)
 - go get rsc.io/sampler@v1.3.1
 ```
+
 ## links & docs
 
 - [golang.org](golang.org)
