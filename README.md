@@ -5,8 +5,9 @@ Just a repo for my personal GoLang learning and progression :)
 - [Install Go here](https://go.dev/doc/install)
 
 
-some useful GO CLI commands:
+### some useful GO CLI commands:
 
+```sh
 - go version (current running Go version)
 
 - go env (prints env vars)
@@ -30,9 +31,18 @@ some useful GO CLI commands:
 - go test
 
 - go list (lists all currnet module dependencies)
+```
+### managing & upgrading dependencies (example)
 
+```sh
+- go get goloang.org/x/text (example)
+- go list -m all (list all dependencies)
+- go get rsc.io/sampler
+- go list -m -version rsc.io/sampler (search for versions)
+- go get rsc.io/sampler@v1.3.1
+```
 ## links & docs
 
-- golang.org
+- [golang.org](golang.org)
 
-- godoc.org
+- [godoc.org](godoc.org)
