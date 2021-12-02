@@ -10,3 +10,9 @@ some useful GO CLI commands:
 - go run .
 
 - go mod tidy
+
+## links & docs
+
+- golang.org
+
+- godoc.org
