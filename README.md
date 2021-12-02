@@ -15,7 +15,7 @@ some useful GO CLI commands:
 
 - go help (list of all commands)
 
-- go mod init example/test
+- go mod init example/test (creates a new module, initialising go.mod)
 
 - go run . (runs your code in current directory)
 
@@ -24,6 +24,12 @@ some useful GO CLI commands:
 - go install (compiles the program & builds it)
 
 - go mod tidy
+
+- go get
+
+- go test
+
+- go list (lists all currnet module dependencies)
 
 ## links & docs
 
