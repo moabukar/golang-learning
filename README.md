@@ -23,9 +23,9 @@ some useful GO CLI commands:
 
 - go install (compiles the program & builds it)
 
-- go mod tidy
+- go mod tidy (remove unused dependencies)
 
-- go get
+- go get (changes required version of of a dependency or adds a new dependency)
 
 - go test
 
