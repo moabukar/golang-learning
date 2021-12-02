@@ -1,4 +1,4 @@
-# A RESTfyk web service API with Go and Gin web framework
+# A RESTful web service API with Go and Gin web framework
 
 
 - Design API endpoints.
