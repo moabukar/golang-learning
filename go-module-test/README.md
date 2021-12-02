@@ -1,0 +1,1 @@
+# Go module creation test
