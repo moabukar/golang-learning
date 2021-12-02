@@ -47,3 +47,5 @@ Just a repo for my personal GoLang learning and progression :)
 - [golang.org](golang.org)
 
 - [godoc.org](godoc.org)
+
+- [docs for Go packages](golang.org/pkg)
