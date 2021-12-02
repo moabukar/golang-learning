@@ -17,9 +17,9 @@ Just a repo for my personal GoLang learning and progression :)
 
 - go mod init example/test (creates a new module, initialising go.mod)
 
-- go run . (runs your code in current directory)
+- go run . (compiles and executes your code)
 
-- go build (builds and creates an executable or package)
+- go build (compiles a bunch of go source code files)
 
 - go install (compiles the program & "installs" a package)
 
