@@ -42,7 +42,18 @@ Just a repo for my personal GoLang learning and progression :)
 - go get rsc.io/sampler@v1.3.1
 ```
 
-## links & docs
+
+## Some other programming knowledge and stuff (just some random notes)
+
+- dynamically typed: a language where the developer essentially doesn't care what value we assign a variable
+
+examples: JS, Ruby & Python
+
+- statically typed: variable values must be allocated a data type
+
+examples: C++, Java & Go
+
+## Links & docs
 
 - [golang.org](golang.org)
 

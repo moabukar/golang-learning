@@ -1,11 +1,8 @@
 package main
 
-import (
-	"fmt"
-	"os"
-)
+import "fmt"
 
 func main() {
-	fmt.Println("")
-	os.Args
+	var card string = "Ace of Spades"
+	fmt.Println(card)
 }
