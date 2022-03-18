@@ -10,7 +10,7 @@ func main() {
 
 		fmt.Println("You can ride alone")
 
-	} else if age > 14 && age < 18 {
+	} else if age > 14 {
 		fmt.Println("you can ride with a parent")
 	} else {
 		fmt.Println("You cannot ride")
@@ -21,3 +21,5 @@ func main() {
 	// }
 
 }
+
+// better to use
