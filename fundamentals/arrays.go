@@ -10,9 +10,24 @@ import "fmt"
 // 	fmt.Println(arr[0])
 // }
 
+// func main() {
+// 	arr := [3]string{"test", "hello", "test3"}
+
+// 	fmt.Printf("these are the arrays mate %q", arr)
+
+// }
+
 func main() {
-	arr := [3]string{"test", "hello", "test3"}
+	arr := [3]int{4, 4, 5}
+	// fmt.Println(arr)
+	sum := 0
 
-	fmt.Printf("these are the arrays mate %q", arr)
+	for i := 0; i < len(arr); i++ {
+		sum += arr[i]
+	}
+	fmt.Println(sum)
 
+	// 2D arrays below and you can also create multi-dimensional arrays
+	arr2D := [2][3]int{{2, 3, 4}, {3, 4, 5}}
+	fmt.Println(arr2D[1][2])
 }
