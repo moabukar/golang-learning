@@ -14,7 +14,7 @@ package main
 import (
 	"net/http"
 
-	"github.com/mabukar/golang-learning/tree/main/projects/HTTP_Server/api"
+	"github.com/mabukar/golang-learning/projects/HTTP_Server/api"
 )
 
 func main() {
