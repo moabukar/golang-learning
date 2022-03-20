@@ -1,10 +1,39 @@
-GET http://localhost:8080/shopping-items
+# GET http://localhost:80/shopping-items
 
-POST http://localhost:8080/shopping-items
-Content-Type: application/json
+ POST http://localhost:80/shopping-items
+ Content-Type: application/json
 
-{
-    "name": "Pizza"
-}
+ {
+     "name": "Test"
+ }
 
-DELETE http://localhost:8080/shopping-items/uuid
+// DELETE http://localhost:8080/shopping-items/uuid
+
+
+
+ //POST http://localhost:80/shopping-items Content-Type: application/json "name": "Pizza"
+
+ curl -X POST -H "Content-Type: application/json" \
+    -d '{"Order": 5, "title": "Pizza"}' \
+    http://localhost:80/shopping-items
+
+WORKS ^^^ USE THAT on CLI
+
+
+curl -X PUT -d "title=Hello Universe" http://localhost:80/shopping-items
+
+curl -X POST -d "userId=5&title=Hello World&body=Post body." http://localhost:80/shopping-items
+
+6a4e09a8-927f-45d2-a602-f541e832405b
+
+
+curl -X DELETE http://localhost:80/shopping-items/6a4e09a8-927f-45d2-a602-f541e832405b
+
+curl -X DELETE http://localhost:80/shopping-items/296a3ce1-eb6a-499a-b3c0-0adcfd4f9234
+
+curl -X POST -H "Content-Type: application/json" \
+    -d '{"id":"17195303-c333-4348-a1b1-478b1b0f65c9","name":"Pizza"}'\
+    http://localhost:80/shopping-items
+
+
+^^ PERFECT EXAMPLE that works!!
