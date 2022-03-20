@@ -67,7 +67,7 @@ func (s *Server) removeShoppingItem() http.HandlerFunc {
 		idStr, _ := mux.Vars(r)["id"]
 		id, err := uuid.Parse(idStr)
 		if err != nil {
-			http.Error(w, err.Error, http.StatusBadRequest)
+			http.Error(w, err.Error(), http.StatusBadRequest)
 		}
 		for i, item := range s.shoppingItems {
 			if item.ID == id {
