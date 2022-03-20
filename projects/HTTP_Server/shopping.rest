@@ -17,7 +17,7 @@
     -d '{"Order": 5, "title": "Pizza"}' \
     http://localhost:80/shopping-items
 
-WORKS ^^^ USE THAT on CLI
+// WORKS ^^^ USE THAT on CLI
 
 
 curl -X PUT -d "title=Hello Universe" http://localhost:80/shopping-items
@@ -36,4 +36,6 @@ curl -X POST -H "Content-Type: application/json" \
     http://localhost:80/shopping-items
 
 
-^^ PERFECT EXAMPLE that works!!
+// ^^ PERFECT EXAMPLE that works!!
+
+// Note: Test localhost:80 on Safari - in case Chrome does not work
