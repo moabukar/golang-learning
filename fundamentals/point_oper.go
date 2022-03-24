@@ -12,17 +12,20 @@ import "fmt"
 // 	fmt.Println(x, y)
 // }
 
+// Below is an example of changing variables using pointer and dereference operators
+
 func changeValue(str *string) {
 	*str = "changed"
 }
 
-func chnageValue2(str string) {
+func changeValue2(str string) {
 	str = "changed!"
 }
 
 func main() {
 	toChange := "hello"
+	changeValue2(toChange)
 	fmt.Println(toChange)
-	chnageValue2(toChange)
+	changeValue(&toChange)
 	fmt.Println(toChange)
 }
